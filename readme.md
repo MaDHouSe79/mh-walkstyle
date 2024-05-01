@@ -36,6 +36,10 @@
 - [oxmysql](https://github.com/overextended/oxmysql/releases/tag/v1.9.3)
 - [ox_lib](https://github.com/overextended/ox_lib/releases/)
 
+### Screenshot
+![foto](https://raw.githubusercontent.com/MaDHouSe79/mh-walkstyle/main/screenshots/Schermafbeelding%202024-05-01%20142805.png)
+![foto](https://github.com/MaDHouSe79/mh-walkstyle/blob/main/screenshots/Schermafbeelding%202024-05-01%20142843.png)
+
 # Database
 ```sql
 CREATE TABLE IF NOT EXISTS `player_walkstyle` (
