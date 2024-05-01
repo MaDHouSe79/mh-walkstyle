@@ -30,7 +30,7 @@
 - [Youtube](https://www.youtube.com/@MaDHouSe79) for videos
 
 # mh-walkstyle (QB/ESX/Standalone)
-- Save your walk style, when you reconnect to the server you get this walkstyle autumaticly.
+- Press [END] ro save your walk style, when you reconnect to the server you get this walkstyle autumaticly.
 
 # Dependencies
 - [oxmysql](https://github.com/overextended/oxmysql/releases/tag/v1.9.3)
