@@ -4,7 +4,11 @@
 local walkStyle = nil
 
 local function Notify(message, type, length)
-    lib.notify({title = "MH Walk Style", description = message, type = type})
+    if GetResourceState("ox_lib") ~= 'missing' then
+        lib.notify({title = "MH Walk Style", description = message, type = type})
+    else
+        QBCore.Functions.Notify({text = "MH Cutting Brakes", caption = message}, type, length)
+    end
 end
 
 local function LoadWalkStyle(style)
