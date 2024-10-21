@@ -2,6 +2,7 @@
 --[[            MH Walk Style Script by MaDHouSe           ]] --
 --[[ ===================================================== ]] --
 local walkStyle = nil
+local radialmenu = nil
 
 local function Notify(message, type, length)
     if GetResourceState("ox_lib") ~= 'missing' then
@@ -106,4 +107,19 @@ end)
 RegisterNetEvent("hospital:client:Revive", function()
     Wait(2500)
     LoadWalkStyle(walkStyle)
+end)
+
+RegisterNetEvent('qb-radialmenu:client:onRadialmenuOpen', function()
+    if radialmenu ~= nil then
+        exports['qb-radialmenu']:RemoveOption(radialmenu)
+        radialmenu = nil
+    end
+    radialmenu = exports['qb-radialmenu']:AddOption({
+        id = 'walkstyle',
+        title = 'Walkstyle',
+        icon = "person-walking",
+        type = 'client',
+        event = "mh-walkstyle:client:openCategorieMenu",
+        shouldClose = true
+    }, radialmenu)
 end)
