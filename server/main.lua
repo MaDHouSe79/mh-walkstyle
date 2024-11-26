@@ -23,5 +23,5 @@ end)
 
 CreateThread(function()
     Wait(5100)
-    MySQL.Async.execute('ALTER TABLE players ADD COLUMN IF NOT EXISTS walkstyle VARCHAR(255) NOT NULL DEFAULT move_m@multiplayer')
+    MySQL.Async.execute('ALTER TABLE players ADD COLUMN IF NOT EXISTS walkstyle VARCHAR(255) NULL')
 end)
