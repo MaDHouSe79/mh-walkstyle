@@ -23,6 +23,4 @@ server_scripts {
     'server/update.lua'
 }
 
-dependencies {'oxmysql', 'mh-core'}
-
 lua54 'yes'
