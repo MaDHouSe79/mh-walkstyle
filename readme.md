@@ -22,7 +22,11 @@
     </a>      
 </p>
 
-## 🙈 Youtube
+<p align="center">
+    <img src="https://komarev.com/ghpvc/?username=MaDHouSe79&label=Profile%20views&color=3464eb&style=for-the-badge&logo=star&abbreviated=true" alt="MaDHouSe79" style="padding-right:20px;" />
+</p>
+
+## Youtube
 - [Youtube](https://www.youtube.com/@MaDHouSe79) for videos
 
 # mh-walkstyle (QB/ESX/Standalone)
