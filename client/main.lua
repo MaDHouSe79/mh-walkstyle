@@ -8,7 +8,7 @@ local function Notify(message, type, length)
     if GetResourceState("ox_lib") ~= 'missing' then
         lib.notify({title = "MH Walk Style", description = message, type = type})
     else
-        QBCore.Functions.Notify({text = "MH Cutting Brakes", caption = message}, type, length)
+        QBCore.Functions.Notify({text = "MH Walk Style", caption = message}, type, length)
     end
 end
 
