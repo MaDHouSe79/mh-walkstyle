@@ -38,8 +38,9 @@
 
 ### Screenshot
 ![foto](https://raw.githubusercontent.com/MaDHouSe79/mh-walkstyle/main/screenshots/Schermafbeelding%202024-05-01%20142805.png)
-![foto](https://raw.githubusercontent.com/MaDHouSe79/mh-walkstyle/main/Schermafbeelding%202024-05-01%20142843.png)
+![foto](https://raw.githubusercontent.com/MaDHouSe79/mh-walkstyle/main/screenshots/Schermafbeelding%202024-05-01%20142843.png)
 
 # LICENSE
 [GPL LICENSE](./LICENSE)<br />
 &copy; [MaDHouSe79](https://www.youtube.com/@MaDHouSe79)
+
